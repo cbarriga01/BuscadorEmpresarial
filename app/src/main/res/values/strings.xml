@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BuscadorEmpresarial</string>
+    <string name="action_settings">Settings</string>
+    <string name="labelBSimple">Búsqueda Simple</string>
+    <string name="labelBAvanzada">Búsqueda Avanzada</string>
+    <string name="labelEnviar">Enviar</string>
+    <string name="labelHintBSimple">Ingrese cadena a buscar</string>
+</resources>
