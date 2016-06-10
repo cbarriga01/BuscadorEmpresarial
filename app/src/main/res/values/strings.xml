@@ -5,4 +5,13 @@
     <string name="labelBAvanzada">Búsqueda Avanzada</string>
     <string name="labelEnviar">Enviar</string>
     <string name="labelHintBSimple">Ingrese cadena a buscar</string>
+    <string name="labelHintBARun">Ingrese Run a buscar</string>
+    <string name="labelHintBANombre">Ingrese Nombre a buscar</string>
+    <string name="labelHintBAApellido">Ingrese Apellido a buscar</string>
+    <string name="labelHintBAMail">Ingrese Mail a buscar</string>
+    <string name="labelHintBATelefono">Ingrese Teléfono a buscar</string>
+    <string name="labelHintBAPais">Ingrese País a buscar</string>
+    <string name="labelHintBARegion">Ingrese Región a buscar</string>
+    <string name="labelHintBACiudad">Ingrese Ciudad a buscar</string>
+    <string name="labelHintBADireccion">Ingrese Dirección a buscar</string>
 </resources>

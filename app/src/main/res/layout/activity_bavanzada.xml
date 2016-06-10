@@ -9,4 +9,89 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.kal_el.buscadorempresarial.BAvanzadaActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/labelBAvanzada"
+        android:id="@+id/textViewBAvanzada"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBARun"
+        android:layout_below="@+id/textViewBAvanzada"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/labelHintBARun" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBAApellido"
+        android:hint="@string/labelHintBAApellido"
+        android:layout_below="@+id/editTextBANombre"
+        android:layout_alignLeft="@+id/editTextBANombre"
+        android:layout_alignStart="@+id/editTextBANombre" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBAMail"
+        android:text="@string/labelHintBAMail"
+        android:layout_below="@+id/editTextBAApellido"
+        android:layout_alignLeft="@+id/editTextBARun"
+        android:layout_alignStart="@+id/editTextBARun" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBATelefono"
+        android:text="@string/labelHintBATelefono"
+        android:layout_below="@+id/editTextBAMail"
+        android:layout_alignLeft="@+id/editTextBAApellido"
+        android:layout_alignStart="@+id/editTextBAApellido" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBAPais"
+        android:text="@string/labelHintBAPais"
+        android:layout_below="@+id/editTextBATelefono"
+        android:layout_alignLeft="@+id/editTextBARun" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBARegion"
+        android:text="@string/labelHintBARegion"
+        android:layout_below="@+id/editTextBAPais"
+        android:layout_alignLeft="@+id/editTextBARun" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBADireccion"
+        android:text="@string/labelHintBADireccion"
+        android:layout_below="@+id/editTextBACiudad"
+        android:layout_alignLeft="@+id/editTextBARun" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBACiudad"
+        android:text="@string/labelHintBACiudad"
+        android:layout_below="@+id/editTextBARegion"
+        android:layout_alignLeft="@+id/editTextBARun" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBANombre"
+        android:hint="@string/labelHintBANombre"
+        android:layout_below="@+id/editTextBARun"
+        android:layout_alignLeft="@+id/textViewBAvanzada"
+        android:layout_alignStart="@+id/textViewBAvanzada" />
+
 </RelativeLayout>

@@ -21,7 +21,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editTextBSimple"
+        android:id="@+id/editTextBARun"
         android:hint="@string/labelHintBSimple"
         android:layout_below="@+id/textViewBSimple"
         android:layout_centerHorizontal="true" />
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:text="@string/labelEnviar"
         android:id="@+id/buttonBSimple"
-        android:layout_below="@+id/editTextBSimple"
+        android:layout_below="@+id/editTextBARun"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -41,5 +41,12 @@
         android:id="@+id/textViewResBSimple"
         android:layout_below="@+id/buttonBSimple"
         android:layout_centerHorizontal="true" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buttonBSimple"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tabla_contactos"></TableLayout>
 
 </RelativeLayout>
